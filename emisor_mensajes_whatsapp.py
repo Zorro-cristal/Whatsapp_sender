@@ -114,8 +114,4 @@ while cont:
 
     # Pregunta si se desea continuar o no
     cont= messagebox.askyesno(title="Continuar", message="Desea continuar enviando los mensajes?")
-    if cont == "1" or cont == False:
-        cont= True
-    else:
-        cont= False
     root.destroy()
